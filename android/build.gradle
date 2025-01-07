@@ -111,6 +111,8 @@ dependencies {
   //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+  implementation files('libs\\NeptuneLiteApi_V3.24.00_20210519.jar')
+  implementation 'com.google.zxing:core:3.5.1'
 }
 
 if (isNewArchitectureEnabled()) {

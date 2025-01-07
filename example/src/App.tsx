@@ -1,12 +1,12 @@
 import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from 'react-native-pos-pax';
+// import { init } from 'react-native-pos-pax';
 
-const result = multiply(3, 7);
+// console.log(init());
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>Result: {3}</Text>
     </View>
   );
 }

@@ -52,7 +52,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://sample.com.git"
+    "url": "git+https://github.com/navin652/react-native-pos-pax.git"
   },
   "author": "Navinkumar Singh <nasingh@euronetworldwide.com> (https://www.euronetworldwide.com)",
   "license": "MIT",
@@ -128,8 +128,7 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@react-native",
-      "prettier"
+      "@react-native"
     ],
     "rules": {
       "react/react-in-jsx-scope": "off",
@@ -177,6 +176,7 @@
         "typescript",
         {
           "project": "tsconfig.build.json",
+          "tsc": "./node_modules/.bin/tsc" ,
           "esm": true
         }
       ]
