@@ -1,6 +1,6 @@
 {
   "name": "react-native-pos-pax",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library to print receipts from pax machines",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -57,9 +57,9 @@
   "author": "Navinkumar Singh <nasingh@euronetworldwide.com> (https://www.euronetworldwide.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://sample.com/issues"
+    "url": "https://github.com/navin652/react-native-pos-pax.git"
   },
-  "homepage": "https://sample.com#readme",
+  "homepage": "https://github.com/navin652/react-native-pos-pax.git",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

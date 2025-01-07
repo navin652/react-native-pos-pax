@@ -76,7 +76,7 @@ const doubleHeight = (isAscDouble: boolean, isLocalDouble: boolean) =>
 const doubleWidth = (isAscDouble: boolean, isLocalDouble: boolean) =>
   PosPax.doubleWidth(isAscDouble ?? false, isLocalDouble ?? false);
 
-export {
+const PaxPrinterUtility = {
   FULL_CUT,
   PARTIAL_CUT,
   init,
@@ -92,3 +92,5 @@ export {
   doubleHeight,
   doubleWidth,
 };
+
+export default PaxPrinterUtility;
