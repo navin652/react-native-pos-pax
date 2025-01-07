@@ -22,7 +22,6 @@
     "noUnusedParameters": true,
     "resolveJsonModule": true,
     "resolvePackageJsonImports": false,
-    "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext",
